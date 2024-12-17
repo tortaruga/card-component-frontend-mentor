@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+  <link rel="stylesheet" href="./src/output.css"> 
+
+</head>
+<body class="bg-background text-white font-inter text-[15px]">   
+   
+  <main class="min-h-screen p-4 flex justify-center items-center">    
+    <div class="card max-w-[1200px] bg-cardBackground w-100 sm:w-[80%] m-auto rounded-lg flex sm:flex-row-reverse flex-wrap justify-stretch items-stretch">   
+      <div class="img-wrapper basis-[320px] flex-grow rounded-t-lg sm:rounded-r-lg sm:rounded-br-none w-full h-auto min-h-64 sm:min-h-90 sm:bg-imgDesktop bg-imgMobile bg-no-repeat bg-center bg-cover "></div> 
+      <div class="text px-4 py-8 sm:p-16 sm:pr-24 flex-grow basis-[320px] text-center sm:text-left flex flex-col items-center sm:items-start gap-12">
+        <h1 class="-mb-5 font-lexend font-bold text-[2rem] sm:text-[2.2rem]">Get <span class="text-accent">insights</span> that help your business grow.</h1>
+           
+        <p class="text-paragraph mb-6">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+          experience, and overall efficiency.</p>
+        
+        <div class="stats flex flex-col gap-7 sm:flex-row justify-between items-center w-full">    
+          
+          <p class="flex flex-col text-[1.8rem] font-bold sm:items-start ">10k+  <span class="font-lexend font-normal text-[15px] uppercase text-statHeading">companies</span></p>
+          <p class="flex flex-col text-[1.8rem] sm:items-start font-bold uppercase ">314  <span class="font-lexend font-normal text-[15px] text-statHeading">templates</span></p>
+          <p class="flex flex-col text-[1.8rem] sm:items-start font-bold uppercase ">12m+  <span class="font-lexend font-normal text-[15px] text-statHeading">queries</span></p>
+            
+        </div>  
+       
+      </div>   
+      
+    </div> 
+  </main>
+</body>
+</html>
